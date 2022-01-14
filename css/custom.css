@@ -1,0 +1,23 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.hscard {
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-mask: -webkit-gradient(linear, right top, left bottom, to(#fff), from(transparent));
+}
+
+.pe-7s-user:before {
+    content: "";
+    background-image: url("../img/cards.svg");
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.hero_home.version_1 {
+    background: url("../img/Alterac_Key_Art.jpg") no-repeat center;
+    background-size: cover;
+}
